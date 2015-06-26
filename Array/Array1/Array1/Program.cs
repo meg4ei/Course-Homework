@@ -21,8 +21,8 @@ namespace Array1
             {
                 if (i % 2 == 0)
                 {
-                    result += array[i];
-                    Console.WriteLine(result);
+                    sum += i;
+                    Console.WriteLine(sum);
                 }
             }
         }
