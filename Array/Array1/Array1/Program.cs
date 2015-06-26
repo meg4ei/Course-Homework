@@ -26,7 +26,5 @@ namespace Array1
                 }
             }
         }
-
-        public static string result { get; set; }
     }
 }
