@@ -13,7 +13,7 @@ namespace Array1
             int n = int.Parse(Console.ReadLine());
             int[] array = new int[n];
             Console.WriteLine("Enter the values of the array:");
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i <n; i++)
             {
                 array[i] = int.Parse(Console.ReadLine());
             }
@@ -21,10 +21,12 @@ namespace Array1
             {
                 if (i % 2 == 0)
                 {
-                    sum += i;
-                    Console.WriteLine(sum);
+                    int Result = 0;
+                     Result += i;
                 }
+                Console.WriteLine("The Result is "+ Result);
             }
         }
     }
-}
+   }
+
